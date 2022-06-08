@@ -197,3 +197,25 @@ span {
 .projects {
     background: url(./images/white\ bg.jpg); 
 }
+
+.center {
+    text-align: center;
+}
+
+.projects-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.5rem;
+    cursor: pointer;
+}
+
+.box img {
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all .30s;
+}
