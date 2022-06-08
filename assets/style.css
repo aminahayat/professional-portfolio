@@ -224,5 +224,24 @@ span {
     border-radius: 10px;
     cursor: pointer;
     transition: all .35s;
+}
 
+.row i {
+    color: var(--main-color);
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+}
+.row h3 {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.row p {
+    color: var(--secound-bg-color);
+    line-height: 30px;
+    font-size: var(--p-font);
+}
+.row:hover {
+    transform: translateY(-25px);
 }
