@@ -17,6 +17,7 @@
     --text-color: rgb(0, 0, 0);
     --secound-color: #1c1e29bf;
     --main-color: #f9004d;
+    --box-color: rgb(200, 175, 122); 
     --big-font: 5.3rem;
     --h2-font: 4.2rem;
     --p-font: 1.3rem; 
@@ -208,4 +209,20 @@ span {
     letter-spacing: 1px;
     line-height: 28px;
     font-size: var(--p-font);
+}
+.project-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+.row {
+    background: var(--box-color);
+    padding: 55px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .35s;
+
 }
