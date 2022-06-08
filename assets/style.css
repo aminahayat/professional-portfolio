@@ -9,8 +9,10 @@
     scroll-padding-top: 3.5rem;
 }
 
+/* color theme */
+
 :root{
-    --bg-color: #fefefe;
+    --bg-color: #ffffff;
     --secound-bg-color: #191919;
     --text-color: rgb(0, 0, 0);
     --secound-color: #c6c9d8bf;
@@ -20,11 +22,12 @@
     --p-font: 1.1rem; 
 }
 
-body{
+body {
     background: var(--bg-color);
     color: var(--text-color);
 }
-header{
+
+header {
     position: fixed;
     width: 100%;
     top: 0;
@@ -33,4 +36,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: transparent;
+    padding: 25px 15%;
+    transition-duration: .3s;
 }
