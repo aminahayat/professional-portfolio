@@ -10,12 +10,27 @@
 }
 
 :root{
-    --bg-color: #101010;
+    --bg-color: #fefefe;
     --secound-bg-color: #191919;
-    --text-color: #fff;
+    --text-color: rgb(0, 0, 0);
     --secound-color: #c6c9d8bf;
     --main-color: #f9004d;
     --big-font: 5.3rem;
     --h2-font: 4.2rem;
     --p-font: 1.1rem; 
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
