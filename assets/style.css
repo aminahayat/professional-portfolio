@@ -382,4 +382,16 @@ box p {
     .contact{
         grid-template-columns: 1fr;
     }
+    .contact-img{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .contact-form{
+        order: 2;
+    }
+    .box img{
+        max-width: 100%;
+        width: 760px;
+        height: auto;
+    }
 }
