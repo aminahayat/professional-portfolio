@@ -165,6 +165,8 @@ span {
     right: 6px;
 }
 
+/* About me section */
+
 .about {
     background: url(./images/white\ bg.jpg); 
     display: grid;
@@ -195,6 +197,8 @@ span {
     font-size: var(--p-font);
     margin-bottom: 45px;
 }
+
+/* projects section */
 
 .projects {
     background: url(./images/white\ bg.jpg); 
@@ -247,6 +251,9 @@ box p {
     transform: scale(1.25);
 }
 
+
+/* Contact section */
+
 .contact{
     background: url(./images/white\ bg.jpg);
     display: grid;
@@ -254,18 +261,20 @@ box p {
     align-items: center;
     grid-gap: 3rem
 }
-.contact-img img{
-    max-width: 100%;
-    width: 700px;
-    height: auto;
-    border-radius: 10px;
+
+.contact-img {
+   position: relative;
+   top: 50px;
+   left: 150px;
 }
+
 .contact-form h2{
     font-size: var(--h2-font);
     margin-bottom: 15px;
+    
 }
 .contact-form p{
-    color: var(--secound-bg-color);
+    color: var(--main-color);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: var(--p-font);
@@ -317,6 +326,8 @@ box p {
     letter-spacing: 1px;
 }
 
+/* Media Queries */
+
 @media (max-width: 1270px){
     header{
         padding: 18px 4%;
@@ -337,6 +348,7 @@ box p {
         transition: .2s;
     }
 }
+
 
 @media (max-width: 990px){
     .home{
