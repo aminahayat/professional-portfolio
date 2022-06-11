@@ -16,7 +16,7 @@
     --secound-bg-color: #191919;
     --text-color: rgb(0, 0, 0);
     --secound-color: #1c1e29bf;
-    --main-color: #f9004d;
+    --main-color: #fb006d;
     --box-color: rgb(200, 175, 122); 
     --big-font: 5.3rem;
     --h2-font: 4.2rem;
@@ -268,6 +268,7 @@ box p {
    left: 150px;
 }
 
+
 .contact-form h2{
     font-size: var(--h2-font);
     margin-bottom: 15px;
@@ -313,6 +314,8 @@ box p {
     transform: translateY(-10px);
     cursor: pointer;
 }
+
+/* Footer section */
 
 .footer {
     text-align: center;
