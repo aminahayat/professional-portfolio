@@ -4,9 +4,9 @@
 
  # Technologies Used;
 
-"*"HTML
-*CSS
-*FontAwesome
+* HTML
+* CSS
+* FontAwesome
 
 # Deployed Link
 https://aminahayat.github.io/professional-portfolio/
