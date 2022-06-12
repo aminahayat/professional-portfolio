@@ -17,3 +17,5 @@ https://github.com/aminahayat/professional-portfolio
 
 
 # Application Screenshots
+ ![](assets/images/Capture.JPG)
+
